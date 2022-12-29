@@ -16,6 +16,7 @@ const Currency = () => {
                 <select className="custom-select"
                         value={currency} 
                         id="inputGroupSelect03"
+                        style={{background:'#d4edda'}}
                         onChange={(event) => chgCurrency(event.target.value)}>
                     <option value="$">$ Dollar</option>
                     <option value="£">£ Pound</option>
